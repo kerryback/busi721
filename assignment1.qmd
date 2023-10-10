@@ -1,0 +1,23 @@
+## Assignment 1<br>BUSI 721: Data-Driven Finance I<br>Rice University
+
+1. Suppose you want to have $10,000 in 5 years. If the annual interest rate is 6%, how much should you invest today to reach that goal? 
+
+2. You plan to invest $5,000 in a savings account that offers an annual interest rate of 4%. How much will your investment be worth in 10 years? Use the future value formula.
+
+3. You want to save for your child's college education, which will cost $50,000 per year for four years starting in 5 years. If you can earn an annual interest rate of 8%, how much should you invest today to cover all four years' expenses?
+
+4. You plan to deposit $2,000 at the end of each year into a retirement account that offers an annual interest rate of 7%. How much will be in your account after 10 years?
+
+5. You take out a $20,000 car loan at an annual interest rate of 5% for 5 years. Calculate your monthly payment.
+
+6. After making payments on your car loan for 3 years, what is the remaining balance on the loan prior to the 37th payment?
+
+7. 
+Compare two mortgage options:
+
+    A. $300,000 loan at 4.5% for 30 years.
+
+    B. $300,000 loan at 5% for 25 years.
+
+Which option has a lower monthly payment, and which one has a lower total interest cost over the life of the loan?
+

@@ -1,0 +1,36 @@
+## Data Driven Finance I<br>Rice University<br>Fall 2023
+
+#### Instructor
+
+[Kerry Back](https://kerryback.com)<br>
+J. Howard Creekmore Professor of Finance and Professor of Economics<br>
+[kerryback@gmail.com](mailto:kerryback@gmail.com)
+
+#### Course Description
+
+This course is an introduction to corporate finance and financial markets. The course schedule by week is as follows.
+
+1. Present values, future values, and loan parameters
+2. Financial accounting
+3. Analysis of corporate investment projects
+4. Cost of capital
+5. Stock markets
+6. Bond markets
+7. Mutual funds and ETFs
+
+#### Grading
+Grades will be based on weekly assignments (60%) and a take-home final exam (40%).
+
+#### Recommended Textbook
+
+[Corporate Finance by Ivo Welch](https://book.ivo-welch.info/read/)
+
+#### Honor Code
+
+The Rice University honor code applies to all work in this course. Each student must do his or her own assignments, but it is allowed and in fact encouraged for students to seek advice from each other.
+
+#### Disability Accommodations
+
+Any student with a documented disability requiring accommodations in this course is encouraged to contact me outside of class. All discussions will remain confidential. Any adjustments or accommodations regarding assignments or the final exam must be made in advance. Students with disabilities should also contact Disability Support Services in the Allen Center.
+
+

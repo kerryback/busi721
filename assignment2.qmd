@@ -1,0 +1,19 @@
+## Assignment 2<br>BUSI 721: Data-Driven Finance I<br>Rice University
+
+1. You want to retire in 30 years with $1,000,000 in your retirement account. If your investments yield an annual return of 8% and you currently have no savings, how much should you save each year to reach your retirement goal?  Assume the savings are at the end of each year.
+
+2. Suppose your returns are normally distributed with a mean of 8% and a standard deviation of 15%.  Suppose you save the amount you calculated in #1.  
+
+  (a) Run a simulation to determine the probability that you will meet your retirement goal.
+  (b)  Suppose the standard deviation is only 10%.  What is the probability of meeting your retirement goal?
+  
+2. You expect to receive the following cash flows: $5,000 in 1 year, $8,000 in 3 years, and $12,000 in 5 years. If the discount rate is 6%, what is the present value of these cash flows?
+
+3. 
+You are considering two investment options:
+
+    A. Pays $1,000 in 2 years.
+
+    B. Pays $1,500 in 5 years.
+
+If your required rate of return is 7%, which investment should you choose based on their present values?

@@ -1,0 +1,4 @@
+## Assignments<br>Data-Driven Finance I<br>Rice University
+
+[1. Borrowing and Saving](assignment1.html){target="_blank"}
+
