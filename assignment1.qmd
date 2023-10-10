@@ -1,5 +1,13 @@
 ## Assignment 1<br>BUSI 721: Data-Driven Finance I<br>Rice University
 
+
+
+::: {.callout-note appearance="minimal"}
+## Instructions 
+
+This assignment is due before class on Monday, Oct. 16.  Submit a Jupyter notebook to Canvas. Copy each question into a Markdown cell and perform the analysis in the following cell(s). 
+:::
+
 1. Suppose you want to have $10,000 in 5 years. If the annual interest rate is 6%, how much should you invest today to reach that goal? 
 
 2. You plan to invest $5,000 in a savings account that offers an annual interest rate of 4%. How much will your investment be worth in 10 years? Use the future value formula.
