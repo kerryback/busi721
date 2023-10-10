@@ -21,7 +21,7 @@ website:
       - text: Assignments
         file: assignments.qmd
       - text: Notebooks
-        href: https://github.com/kerryback/busi721-notebooks
+        href: https://github.com/kerryback/busi721/notebooks
       
         
 format: 
