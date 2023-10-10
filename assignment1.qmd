@@ -10,7 +10,7 @@ This assignment is due before class on Monday, Oct. 16.  Submit a Jupyter notebo
 
 1. Suppose you want to have $10,000 in 5 years. If the annual interest rate is 6%, how much should you invest today to reach that goal? 
 
-2. You plan to invest $5,000 in a savings account that offers an annual interest rate of 4%. How much will your investment be worth in 10 years? Use the future value formula.
+2. You plan to invest $5,000 in a savings account that offers an annual interest rate of 4%. How much will your investment be worth in 10 years? 
 
 3. You want to save for your child's college education, which will cost $50,000 per year for four years starting in 5 years. If you can earn an annual interest rate of 8%, how much should you invest today to cover all four years' expenses?
 
@@ -29,3 +29,4 @@ Compare two mortgage options:
 
 Which option has a lower monthly payment, and which one has a lower total interest cost over the life of the loan?
 
+1. You want to retire in 30 years with $1,000,000 in your retirement account. If your investments yield an annual return of 8% and you currently have no savings, how much should you save each year to reach your retirement goal?  Assume the savings are at the end of each year as we did in class.
