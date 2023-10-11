@@ -1,5 +1,5 @@
 ## Slide Decks<br>BUSI 721: Data-Driven Finance I<br>Rice University<br>
 
 
-[1. Time Value of Money](01-time_value_of_money.slides.html){target="_blank"}
+[1. Time Value of Money](01-time_value_of_money.slides.html){target="_blank"} [(pdf)](pdfs/01-time_value_of_money.slides.pdf){target="_blank"}
 
