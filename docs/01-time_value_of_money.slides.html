@@ -7471,12 +7471,12 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Example">Example<a class="anchor-link" href="#Example">¶</a></h3><p>Suppose we invest $1,000 at an annual interest rate of 5% for 2 years.</p>
+<h3 id="Example">Example<a class="anchor-link" href="#Example">¶</a></h3><p>Suppose we invest $\$1,000$ at an annual interest rate of 5% for 2 years.</p>
 <p><strong>End of Year 1:</strong></p>
-<p>At the end of the first year, we'll have earn interest on our initial investment equal to $1,000 multiplied by 0.05. So, the balance at the end of the year would be our initial investment plus the interest earned.</p>
+<p>At the end of the first year, we'll have earn interest on our initial investment equal to $\$1,000$ multiplied by $0.05$. So, the balance at the end of the year would be our initial investment plus the interest earned.</p>
 <p>Balance = Initial Investment + Interest</p>
-<p>Balance = $1,000* 1 + $1,000 * 0.05</p>
-<p>Balance = $1,000 * 1.05</p>
+<p>Balance = $\$1,000 \times 1 + \$1,000 \times 0.05$</p>
+<p>Balance = $\$1,000 \times 1.05$</p>
 </div>
 </div>
 </div>
@@ -7488,13 +7488,13 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>End of Year 2:</strong></p>
-<p>During the second year, we'll earn interest on the balance from the end of the first year, which is $1,000 * 1.05.</p>
-<p>Interest for the second year: ($1,000 * 1.05) * 0.05</p>
-<p>Balance = ($1,000 * 1.05) * 1 + ($1,000 * 1.05) * 0.05</p>
-<p>Balance = $1,000 * 1.05 * 1.05</p>
-<p>Balance = $1,000 * 1.05^2</p>
+<p>During the second year, we'll earn interest on the balance from the end of the first year, which is $\$1,000 \times 1.05$.</p>
+<p>Interest for the second year: $(\$1,000 \times 1.05) \times 0.05$</p>
+<p>Balance = $(\$1,000 \times 1.05) \times 1 + (\$1,000 \times 1.05) \times 0.05$</p>
+<p>Balance = $\$1,000 \times 1.05 \times 1.05$</p>
+<p>Balance = $\$1,000 \times 1.05^2$</p>
 <p>Continuing this pattern, for any given year n, the future value of the investment will be:</p>
-<p>FV = $1,000 * 1.05^n</p>
+<p>$$\text{FV} = \$1,000 \times 1.05^n$$</p>
 </div>
 </div>
 </div>
@@ -7505,12 +7505,12 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Loan-Balance-Example">Loan Balance Example<a class="anchor-link" href="#Loan-Balance-Example">¶</a></h3><p>Imagine you take out a loan of $10,000 at an annual interest rate of 5%. You agree to repay the loan in annual installments of $2,500.</p>
+<h3 id="Loan-Balance-Example">Loan Balance Example<a class="anchor-link" href="#Loan-Balance-Example">¶</a></h3><p>Imagine you take out a loan of $\$10,000$ at an annual interest rate of 5%. You agree to repay the loan in annual installments of $\$2,500$.</p>
 <p><strong>End of Year 1:</strong></p>
 <ul>
-<li>Interest for the year: $10,000 * 0.05 = $500</li>
-<li>Total amount owed (before payment): $10,000 + $500 = $10,500</li>
-<li>After making the annual payment of $2,500, the remaining balance is: $10,500 - $2,500 = $8,000</li>
+<li>Interest for the year: $\$10,000 \times 0.05 = \$500$</li>
+<li>Total amount owed (before payment): $\$10,000 + \$500 = \$10,500$</li>
+<li>After making the annual payment of $\$2,500$, the remaining balance is: $\$10,500 - \$2,500 = \$8,000$</li>
 </ul>
 </div>
 </div>
@@ -7524,9 +7524,9 @@ main {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>End of Year 2:</strong></p>
 <ul>
-<li>Interest for the year: $8,000 * 0.05 = $400</li>
-<li>Total amount owed (before payment): $8,000 + $400 = $8,400</li>
-<li>After making the annual payment of $2,500, the remaining balance is: $8,400 - $2,500 = $5,900</li>
+<li>Interest for the year: $\$8,000 \times 0.05 = \$400$</li>
+<li>Total amount owed (before payment): $\$8,000 + \$400 = \$8,400$</li>
+<li>After making the annual payment of $\$2,500$, the remaining balance is: $\$8,400 - \$2,500 = \$5,900$</li>
 </ul>
 <p>And so on...</p>
 </div>
@@ -7620,18 +7620,47 @@ B_0 &amp;= P\left[\frac{1}{1+r} + \frac{1}{(1+r)^2} + \cdots +  \frac{1}{(1+r)^n
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Calculating-Annuity-Factors">Calculating Annuity Factors<a class="anchor-link" href="#Calculating-Annuity-Factors">¶</a></h3><ul>
-<li><p>In Excel, use pv(r, n, 1)</p>
-</li>
-<li><p>In python, use</p>
-<pre><code>import numpy_financial as npf
-npf.pv(r, n, 1)</code></pre>
-</li>
-<li><p>Or, in python use</p>
-<pre><code>import numpy as np
-pv_factors = (1+r)**np.arange(-1, -n-1, -1)
-np.sum(pv_factors)</code></pre>
-</li>
+<li>In Excel, use pv(r, n, 1)</li>
+<li>In python, use either of the following:</li>
 </ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4f5078a0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">r</span> <span class="o">=</span> <span class="mf">0.05</span>
+<span class="n">n</span> <span class="o">=</span> <span class="mi">3</span>
+
+<span class="kn">import</span> <span class="nn">numpy_financial</span> <span class="k">as</span> <span class="nn">npf</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">npf</span><span class="o">.</span><span class="n">pv</span><span class="p">(</span><span class="n">rate</span><span class="o">=</span><span class="n">r</span><span class="p">,</span> <span class="n">nper</span><span class="o">=</span><span class="n">n</span><span class="p">,</span> <span class="n">pmt</span><span class="o">=-</span><span class="mi">1</span><span class="p">))</span>
+
+<span class="c1"># or</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
+<span class="n">pv_factors</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="n">r</span><span class="p">)</span><span class="o">**</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">pv_factors</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>2.72324802937048
+2.7232480293704784
+</pre>
+</div>
 </div>
 </div>
 </div>
@@ -7644,6 +7673,34 @@ np.sum(pv_factors)</code></pre>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Formula-for-Annuity-Factor">Formula for Annuity Factor<a class="anchor-link" href="#Formula-for-Annuity-Factor">¶</a></h3><p>There is also a somewhat simpler formula for the sum of PV factors.</p>
 <p>$$\text{Annuity Factor} = \frac{1}{r}\;\left[1 - \frac{1}{(1+r)^n}\right]$$</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d50d790d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">annuity_factor</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">r</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="n">r</span><span class="p">)</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="n">n</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">annuity_factor</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>2.7232480293704797
+</pre>
+</div>
 </div>
 </div>
 </div>
@@ -7667,12 +7724,10 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy_financial</span> <span class="k">as</span> <span class="nn">npf</span>
-
-<span class="n">amount_borrowed</span> <span class="o">=</span> <span class="mi">40000</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">amount_borrowed</span> <span class="o">=</span> <span class="mi">40000</span>
 <span class="n">num_years</span> <span class="o">=</span> <span class="mi">5</span>
 <span class="n">rate</span> <span class="o">=</span> <span class="mf">0.06</span>
 </pre></div>
@@ -7685,7 +7740,7 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">required_payment</span> <span class="o">=</span> <span class="n">npf</span><span class="o">.</span><span class="n">pmt</span><span class="p">(</span>
@@ -7719,7 +7774,7 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">payment</span> <span class="o">=</span> <span class="mi">10000</span>
@@ -7751,7 +7806,7 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">amount_borrowed</span> <span class="o">=</span> <span class="mi">40000</span>
@@ -7783,7 +7838,7 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Loan with a Balloon</span>
@@ -7802,7 +7857,7 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">balloon</span> <span class="o">=</span> <span class="o">-</span> <span class="n">npf</span><span class="o">.</span><span class="n">fv</span><span class="p">(</span>
@@ -7851,12 +7906,10 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
-
-<span class="n">amount_borrowed</span> <span class="o">=</span> <span class="mi">40000</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">amount_borrowed</span> <span class="o">=</span> <span class="mi">40000</span>
 <span class="n">num_years</span> <span class="o">=</span> <span class="mi">5</span>
 <span class="n">rate</span> <span class="o">=</span> <span class="mf">0.06</span>
 
@@ -7902,7 +7955,7 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">amount_borrowed</span> <span class="o">=</span> <span class="mi">40000</span>
@@ -7918,7 +7971,7 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">monthly_rate</span> <span class="o">=</span> <span class="n">annual_rate</span> <span class="o">/</span> <span class="mi">12</span>
@@ -8027,7 +8080,7 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">desired_balance</span> <span class="o">=</span> <span class="mi">2000000</span>
@@ -8050,7 +8103,7 @@ np.sum(pv_factors)</code></pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[46]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>-25297.822980094406</pre>
 </div>
@@ -8062,7 +8115,7 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># alternatively, matching PVs:</span>
@@ -8083,7 +8136,7 @@ np.sum(pv_factors)</code></pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[47]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>-25297.822980094406</pre>
 </div>
@@ -8106,7 +8159,7 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">spending</span> <span class="o">=</span> <span class="mi">100000</span>
@@ -8144,7 +8197,7 @@ np.sum(pv_factors)</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">saving</span> <span class="o">=</span> <span class="o">-</span><span class="n">npf</span><span class="o">.</span><span class="n">pmt</span><span class="p">(</span>
