@@ -22,6 +22,8 @@ website:
         file: assignments.qmd
       - text: Notebooks
         href: https://github.com/kerryback/busi721/tree/main/notebooks
+      - text: Learn Investments Dashboard
+        href: https://learn-investments.rice-business.org
       
         
 format: 
