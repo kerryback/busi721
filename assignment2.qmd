@@ -1,5 +1,10 @@
 ## Assignment 2<br>BUSI 721: Data-Driven Finance I<br>Rice University
 
+::: {.callout-note appearance="minimal"}
+## Instructions 
+
+This assignment is due before class on Monday, Oct. 16.  Submit a Jupyter notebook to Canvas. Copy each question into a Markdown cell and perform the analysis in the following cell(s). 
+:::
 
 1.  You want to retire in 30 years with $4,000,000 in your retirement account.  If your investments yield an annual return of 8% and you currently have no savings, how much should you save each year to reach your retirement goal?  
 2.  Suppose in #1 that your returns are normally distributed with a mean of 8% and a standard deviation of 15%.  Suppose you save the amount you calculated in #1.  Run a simulation to determine the probability that you will meet your retirement goal.
