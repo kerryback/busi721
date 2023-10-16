@@ -2,3 +2,5 @@
 
 [1. Time Value of Money](assignment1.html){target="_blank"}
 
+[2. Simulation, Moments, and Real Returns](assignment2.html){target="_blank"}
+

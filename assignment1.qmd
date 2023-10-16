@@ -29,4 +29,4 @@ Compare two mortgage options:
 
 Which option has a lower monthly payment, and which one has a lower total interest cost over the life of the loan?
 
-1. You want to retire in 30 years with $1,000,000 in your retirement account. If your investments yield an annual return of 8% and you currently have no savings, how much should you save each year to reach your retirement goal?  Assume the savings are at the end of each year as we did in class.
+8. You want to retire in 30 years with $1,000,000 in your retirement account. If your investments yield an annual return of 8% and you currently have no savings, how much should you save each year to reach your retirement goal?  Assume the savings are at the end of each year as we did in class.
