@@ -4,3 +4,5 @@
 [1. Time Value of Money](01-time_value_of_money.slides.html){target="_blank"} [(pdf)](pdfs/01-time_value_of_money.slides.pdf){target="_blank"}
 
 [2. Simulation, Moments, and Real Returns](02-simulation.slides.html){target="_blank"} [(pdf)](pdfs/02-simulation.slides.pdf){target="_blank"}
+
+[3. Financial Accounting I](03-financial_accounting_1.slides.html){target="_blank"} [(pdf)](pdfs/03-financial_accounting_1.slides.pdf){target="_blank"}
