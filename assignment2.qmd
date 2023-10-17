@@ -3,7 +3,7 @@
 ::: {.callout-note appearance="minimal"}
 ## Instructions 
 
-This assignment is due before class on Monday, Oct. 16.  Submit a Jupyter notebook to Canvas. Copy each question into a Markdown cell and perform the analysis in the following cell(s). 
+This assignment is due before class on Monday, Oct. 23.  Submit a Jupyter notebook to Canvas. Copy each question into a Markdown cell and perform the analysis in the following cell(s). 
 :::
 
 1.  You want to retire in 30 years with $4,000,000 in your retirement account.  If your investments yield an annual return of 8% and you currently have no savings, how much should you save each year to reach your retirement goal?  
