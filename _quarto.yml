@@ -20,6 +20,8 @@ website:
         file: slides.qmd
       - text: Assignments
         file: assignments.qmd
+      - text: Solutions
+        href: https://github.com/kerryback/busi721/tree/main/solutions
       - text: Notebooks
         href: https://github.com/kerryback/busi721/tree/main/notebooks
       - text: Learn Investments Dashboard
