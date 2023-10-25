@@ -6,6 +6,8 @@ project:
     - slides.qmd
     - assignments.qmd
     - assignment1.qmd
+    - assignment2.qmd
+    - assignment3.qmd
              
 website:
   title: ""

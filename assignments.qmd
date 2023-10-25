@@ -4,3 +4,5 @@
 
 [2. Simulation, Moments, and Real Returns](assignment2.html){target="_blank"}
 
+[3. The Sneaker Project](assignment3.html){target="_blank"}
+

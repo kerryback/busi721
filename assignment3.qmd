@@ -1,0 +1,4 @@
+## Assignment 3<br>BUSI 721: Data-Driven Finance I<br>Rice University
+
+
+The assignment is to calculate the NPV and IRR of the Sneaker Project.  Do not do the Persistence part of the case.  Submit an Excel workbook on Canvas before class on Monday, Oct. 30.  
