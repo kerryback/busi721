@@ -1,4 +1,4 @@
 ## Assignment 4<br>BUSI 721: Data-Driven Finance I<br>Rice University
 
-Submit a Jupyter notebook that does the following:
-Get the income statements and balance sheets for CVX and COP for the past five years.  Using the variables Net Income, Total Revenue, Total Assets, and Stockholders Equity, calculate and plot the four financial ratios (ROE, Net Profit Margin, Asset Turnover, and Equity Multiplier) over time.  Generate four figures.  Each figure should show the history of one ratio for both CVX and COP.   Use average balance sheet items (average the beginning-of-year and end-of-year data).  
+Submit a Jupyter notebook or an Excel workbook that does the following:
+Using the income statements and balance sheets for CVX and COP for the past five years and the variables Net Income, Total Revenue, Total Assets, and Stockholders Equity, calculate and plot the four financial ratios (ROE, Net Profit Margin, Asset Turnover, and Equity Multiplier) over time.  Generate four figures.  Each figure should show the history of one ratio for both CVX and COP.   Use average balance sheet items (average the beginning-of-year and end-of-year data).  
