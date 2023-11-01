@@ -6,3 +6,5 @@
 
 [3. The Sneaker Project](assignment3.html){target="_blank"}
 
+[4. DuPont Analysis](assignment4.html){target="_blank"}
+

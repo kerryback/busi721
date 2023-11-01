@@ -14840,6 +14840,283 @@ $$ \frac{\text{Net Income} + \text{After-tax Interest}}{\text{Shareholders Equit
 </div>
 </div>
 </div>
+</div></section></section><section ><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Profitability-Ratios">Profitability Ratios<a class="anchor-link" href="#Profitability-Ratios">&#182;</a></h3><ul>
+<li>Gross profit margin = (revenue - COGS) / revenue</li>
+<li>Net profit margin = net income / revenue</li>
+<li>Return on equity = net income / shareholders equity</li>
+<li>Return on assets = net income / total assets</li>
+<li>ROCE (also called ROIC = return on invested capital)</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Efficiency-Ratios">Efficiency Ratios<a class="anchor-link" href="#Efficiency-Ratios">&#182;</a></h3><ul>
+<li>Asset turnover = revenue / assets</li>
+<li>Inventory turnover = COGS / inventory</li>
+</ul>
+<h3 id="Liquidity/solvency-ratios">Liquidity/solvency ratios<a class="anchor-link" href="#Liquidity/solvency-ratios">&#182;</a></h3><ul>
+<li>Leverage ratio = assets / debt</li>
+<li>Debt to equity = debt / shareholders equity</li>
+<li>Current ratio = current assets / current liabilities</li>
+<li>Quick ratio = (current assets - inventory) / current liabilities</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="DuPont-Analysis">DuPont Analysis<a class="anchor-link" href="#DuPont-Analysis">&#182;</a></h3>$$\text{ROE} = \text{Net Profit Margin} \times \text{Asset Turnover} \times \text{Equity Multiplier}$$$$\frac{\text{Net Income}}{\text{Equity}} = \frac{\text{Net Income}}{\text{Sales}} \times \frac{\text{Sales}}{\text{Assets}} \times \frac{\text{Assets}}{\text{Equity}}$$
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Timing-of-Balance-Sheets-and-Income-Statements">Timing of Balance Sheets and Income Statements<a class="anchor-link" href="#Timing-of-Balance-Sheets-and-Income-Statements">&#182;</a></h3><ul>
+<li>Balance sheet is at a point in time (end of fiscal year)</li>
+<li>Income statement describes things that happened during the fiscal year</li>
+<li>Compare income statement to beginning-of-year balance sheet?</li>
+<li>Or compare to end-of-year balance sheet?</li>
+<li>Usually average balance sheet items.  Examples:<ul>
+<li>ROCE = net income + after-tax interest / average invested capital</li>
+<li>asset turnover = sales / average assets</li>
+<li>etc.</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Getting-Financial-Statements-with-yfinance">Getting Financial Statements with yfinance<a class="anchor-link" href="#Getting-Financial-Statements-with-yfinance">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div></section></section><section ><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># !pip install --upgrade yfinance</span>
+<span class="kn">import</span> <span class="nn">yfinance</span> <span class="k">as</span> <span class="nn">yf</span>
+
+<span class="n">ticker</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">Ticker</span><span class="p">(</span><span class="s1">&#39;COP&#39;</span><span class="p">)</span>
+<span class="n">income_statement</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">financials</span>
+<span class="n">balance_sheet</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">balance_sheet</span>
+<span class="n">cash_flows</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">cashflow</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div></section></section><section ><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">income_statement</span><span class="o">.</span><span class="n">index</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>Index([&#39;Tax Effect Of Unusual Items&#39;, &#39;Tax Rate For Calcs&#39;,
+       &#39;Normalized EBITDA&#39;, &#39;Total Unusual Items&#39;,
+       &#39;Total Unusual Items Excluding Goodwill&#39;,
+       &#39;Net Income From Continuing Operation Net Minority Interest&#39;,
+       &#39;Reconciled Depreciation&#39;, &#39;Reconciled Cost Of Revenue&#39;, &#39;EBITDA&#39;,
+       &#39;EBIT&#39;, &#39;Net Interest Income&#39;, &#39;Interest Expense&#39;, &#39;Interest Income&#39;,
+       &#39;Normalized Income&#39;,
+       &#39;Net Income From Continuing And Discontinued Operation&#39;,
+       &#39;Total Expenses&#39;, &#39;Diluted Average Shares&#39;, &#39;Basic Average Shares&#39;,
+       &#39;Diluted EPS&#39;, &#39;Basic EPS&#39;, &#39;Diluted NI Availto Com Stockholders&#39;,
+       &#39;Net Income Common Stockholders&#39;, &#39;Otherunder Preferred Stock Dividend&#39;,
+       &#39;Net Income&#39;, &#39;Minority Interests&#39;,
+       &#39;Net Income Including Noncontrolling Interests&#39;,
+       &#39;Net Income Continuous Operations&#39;, &#39;Tax Provision&#39;, &#39;Pretax Income&#39;,
+       &#39;Other Income Expense&#39;, &#39;Other Non Operating Income Expenses&#39;,
+       &#39;Special Income Charges&#39;, &#39;Gain On Sale Of Ppe&#39;, &#39;Write Off&#39;,
+       &#39;Impairment Of Capital Assets&#39;, &#39;Earnings From Equity Interest&#39;,
+       &#39;Gain On Sale Of Security&#39;, &#39;Net Non Operating Interest Income Expense&#39;,
+       &#39;Interest Expense Non Operating&#39;, &#39;Interest Income Non Operating&#39;,
+       &#39;Operating Income&#39;, &#39;Operating Expense&#39;, &#39;Other Operating Expenses&#39;,
+       &#39;Other Taxes&#39;, &#39;Selling General And Administration&#39;, &#39;Gross Profit&#39;,
+       &#39;Cost Of Revenue&#39;, &#39;Total Revenue&#39;, &#39;Operating Revenue&#39;],
+      dtype=&#39;object&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></section></section><section ><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">income_statement</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>DatetimeIndex([&#39;2022-12-31&#39;, &#39;2021-12-31&#39;, &#39;2020-12-31&#39;, &#39;2019-12-31&#39;], dtype=&#39;datetime64[ns]&#39;, freq=None)</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></section></section><section ><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">balance_sheet</span><span class="o">.</span><span class="n">index</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>Index([&#39;Treasury Shares Number&#39;, &#39;Ordinary Shares Number&#39;, &#39;Share Issued&#39;,
+       &#39;Net Debt&#39;, &#39;Total Debt&#39;, &#39;Tangible Book Value&#39;, &#39;Invested Capital&#39;,
+       &#39;Working Capital&#39;, &#39;Net Tangible Assets&#39;, &#39;Common Stock Equity&#39;,
+       &#39;Total Capitalization&#39;, &#39;Total Equity Gross Minority Interest&#39;,
+       &#39;Minority Interest&#39;, &#39;Stockholders Equity&#39;,
+       &#39;Gains Losses Not Affecting Retained Earnings&#39;,
+       &#39;Other Equity Adjustments&#39;, &#39;Treasury Stock&#39;, &#39;Retained Earnings&#39;,
+       &#39;Additional Paid In Capital&#39;, &#39;Capital Stock&#39;, &#39;Common Stock&#39;,
+       &#39;Total Liabilities Net Minority Interest&#39;,
+       &#39;Total Non Current Liabilities Net Minority Interest&#39;,
+       &#39;Other Non Current Liabilities&#39;, &#39;Employee Benefits&#39;,
+       &#39;Non Current Deferred Liabilities&#39;,
+       &#39;Non Current Deferred Taxes Liabilities&#39;,
+       &#39;Long Term Debt And Capital Lease Obligation&#39;, &#39;Long Term Debt&#39;,
+       &#39;Long Term Provisions&#39;, &#39;Current Liabilities&#39;,
+       &#39;Current Debt And Capital Lease Obligation&#39;, &#39;Current Debt&#39;,
+       &#39;Pensionand Other Post Retirement Benefit Plans Current&#39;,
+       &#39;Payables And Accrued Expenses&#39;, &#39;Current Accrued Expenses&#39;, &#39;Payables&#39;,
+       &#39;Total Tax Payable&#39;, &#39;Accounts Payable&#39;, &#39;Total Assets&#39;,
+       &#39;Total Non Current Assets&#39;, &#39;Other Non Current Assets&#39;,
+       &#39;Non Current Note Receivables&#39;, &#39;Non Current Accounts Receivable&#39;,
+       &#39;Investments And Advances&#39;, &#39;Other Investments&#39;,
+       &#39;Investmentin Financial Assets&#39;, &#39;Held To Maturity Securities&#39;,
+       &#39;Long Term Equity Investment&#39;, &#39;Net PPE&#39;, &#39;Accumulated Depreciation&#39;,
+       &#39;Gross PPE&#39;, &#39;Other Properties&#39;, &#39;Current Assets&#39;,
+       &#39;Other Current Assets&#39;, &#39;Prepaid Assets&#39;, &#39;Inventory&#39;, &#39;Finished Goods&#39;,
+       &#39;Raw Materials&#39;, &#39;Receivables&#39;, &#39;Accounts Receivable&#39;,
+       &#39;Allowance For Doubtful Accounts Receivable&#39;,
+       &#39;Gross Accounts Receivable&#39;,
+       &#39;Cash Cash Equivalents And Short Term Investments&#39;,
+       &#39;Other Short Term Investments&#39;, &#39;Cash And Cash Equivalents&#39;,
+       &#39;Cash Equivalents&#39;, &#39;Cash Financial&#39;],
+      dtype=&#39;object&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div></section></section>
 </div>
 </div>

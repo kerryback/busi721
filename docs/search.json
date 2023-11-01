@@ -18,7 +18,7 @@
     "href": "assignments.html",
     "title": "",
     "section": "",
-    "text": "1. Time Value of Money\n2. Simulation, Moments, and Real Returns\n3. The Sneaker Project"
+    "text": "1. Time Value of Money\n2. Simulation, Moments, and Real Returns\n3. The Sneaker Project\n4. DuPont Analysis"
   },
   {
     "objectID": "index.html",
@@ -68,5 +68,12 @@
     "title": "",
     "section": "",
     "text": "The assignment is to calculate the NPV and IRR of the Sneaker Project. Do not do the Persistence part of the case. Submit an Excel workbook on Canvas before class on Monday, Oct. 30."
+  },
+  {
+    "objectID": "assignment4.html",
+    "href": "assignment4.html",
+    "title": "",
+    "section": "",
+    "text": "Submit a Jupyter notebook that does the following: Get the income statements and balance sheets for CVX and COP for the past five years. Using the variables Net Income, Total Revenue, Total Assets, and Stockholders Equity, calculate and plot the four financial ratios (ROE, Net Profit Margin, Asset Turnover, and Equity Multiplier) over time. Generate four figures. Each figure should show the history of one ratio for both CVX and COP. Use average balance sheet items (average the beginning-of-year and end-of-year data)."
   }
 ]
