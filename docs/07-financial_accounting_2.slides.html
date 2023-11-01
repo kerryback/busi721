@@ -14802,6 +14802,70 @@ $$ \frac{\text{Net Income} + \text{After-tax Interest}}{\text{Shareholders Equit
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Accounting-for-Subs-and-JVs">Accounting for Subs and JVs<a class="anchor-link" href="#Accounting-for-Subs-and-JVs">&#182;</a></h3><p>Suppose two companies jointly own a third company.  Suppose ABC has two-thirds ownership.</p>
+<img src="images/JV.jpg" height="500" width="1000">
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ul>
+<li>Because ABC has a controlling interest, all of the assets and liabilities of the joint venture are shown on ABC's balance sheet, just as if they were directly ABC's assets and liabilities.</li>
+<li>To reflect XYZ's part ownership, ABC shows a liability: &quot;equity of noncontrolling interests.&quot;  Also &quot;income to noncontrolling interests&quot; on income statement.</li>
+<li>XYZ's balance sheet reflects its part ownership by showing an asset: &quot;investments and advances to equity affiliates.&quot;  Also, in the income statement: &quot;income from equity affiliates.&quot;</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="images/JV2.jpg" height="500" width="1000">
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Timing-of-Balance-Sheets-and-Income-Statements">Timing of Balance Sheets and Income Statements<a class="anchor-link" href="#Timing-of-Balance-Sheets-and-Income-Statements">&#182;</a></h3><ul>
+<li>Balance sheet is at a point in time (end of fiscal year)</li>
+<li>Income statement describes things that happened during the fiscal year</li>
+<li>Compare income statement to beginning-of-year balance sheet?</li>
+<li>Or compare to end-of-year balance sheet?</li>
+<li>Usually average balance sheet items.  Examples:<ul>
+<li>ROCE = net income + after-tax interest / average invested capital</li>
+<li>asset turnover = sales / average assets</li>
+<li>etc.</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Accounting-for-Subsidiaries-and-Joint-Ventures">Accounting for Subsidiaries and Joint Ventures<a class="anchor-link" href="#Accounting-for-Subsidiaries-and-Joint-Ventures">&#182;</a></h2><ul>
 <li>If Chevron owns a controlling interest (50%+) then income statement and balance sheet are consolidated.<ul>
 <li>At bottom of income statement, there is &quot;income to noncontrolling interests&quot; which is the part of the fraction of subsidiary income not owned by Chevron.</li>
@@ -14929,7 +14993,7 @@ $$ \frac{\text{Net Income} + \text{After-tax Interest}}{\text{Shareholders Equit
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># !pip install --upgrade yfinance</span>
@@ -14951,7 +15015,7 @@ $$ \frac{\text{Net Income} + \text{After-tax Interest}}{\text{Shareholders Equit
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">income_statement</span><span class="o">.</span><span class="n">index</span><span class="p">:</span>
@@ -15037,7 +15101,7 @@ Operating Revenue
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">income_statement</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
@@ -15078,7 +15142,7 @@ Operating Revenue
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">balance_sheet</span><span class="o">.</span><span class="n">index</span><span class="p">:</span>
@@ -15183,7 +15247,7 @@ Cash Financial
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">balance_sheet</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
