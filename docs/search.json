@@ -11,7 +11,7 @@
     "href": "slides.html",
     "title": "",
     "section": "",
-    "text": "1. Time Value of Money (pdf)\n2. Simulation, Moments, and Real Returns (pdf)\n3. Financial Accounting I (pdf)\n4. Discounted Cash Flow Analysis (pdf)\n7. Financial Accounting II (pdf)"
+    "text": "1. Time Value of Money (pdf)\n2. Simulation, Moments, and Real Returns (pdf)\n3. Financial Accounting I (pdf)\n4. Discounted Cash Flow Analysis (pdf)\n7. Financial Accounting II (pdf)\n8. Funds and Returns (pdf)"
   },
   {
     "objectID": "assignments.html",
@@ -39,7 +39,7 @@
     "href": "slides.html#slide-decks-busi-721-data-driven-finance-i-rice-university",
     "title": "",
     "section": "",
-    "text": "1. Time Value of Money (pdf)"
+    "text": "1. Time Value of Money (pdf)\n2. Simulation, Moments, and Real Returns (pdf)\n3. Financial Accounting I (pdf)\n4. Discounted Cash Flow Analysis (pdf)\n7. Financial Accounting II (pdf)\n8. Funds and Returns (pdf)"
   },
   {
     "objectID": "assignments.html#assignments-data-driven-finance-i-rice-university",
@@ -74,6 +74,13 @@
     "href": "assignment4.html",
     "title": "",
     "section": "",
-    "text": "Submit a Jupyter notebook that does the following: Get the income statements and balance sheets for CVX and COP for the past five years. Using the variables Net Income, Total Revenue, Total Assets, and Stockholders Equity, calculate and plot the four financial ratios (ROE, Net Profit Margin, Asset Turnover, and Equity Multiplier) over time. Generate four figures. Each figure should show the history of one ratio for both CVX and COP. Use average balance sheet items (average the beginning-of-year and end-of-year data)."
+    "text": "Submit a Jupyter notebook or an Excel workbook that does the following: Using the income statements and balance sheets for CVX and COP for the past five years and the variables Net Income, Total Revenue, Total Assets, and Stockholders Equity, calculate and plot the four financial ratios (ROE, Net Profit Margin, Asset Turnover, and Equity Multiplier) over time. Generate four figures. Each figure should show the history of one ratio for both CVX and COP. Use average balance sheet items (average the beginning-of-year and end-of-year data)."
+  },
+  {
+    "objectID": "assignment4.html#assignment-4-busi-721-data-driven-finance-i-rice-university",
+    "href": "assignment4.html#assignment-4-busi-721-data-driven-finance-i-rice-university",
+    "title": "",
+    "section": "",
+    "text": "Submit a Jupyter notebook or an Excel workbook that does the following: Using the income statements and balance sheets for CVX and COP for the past five years and the variables Net Income, Total Revenue, Total Assets, and Stockholders Equity, calculate and plot the four financial ratios (ROE, Net Profit Margin, Asset Turnover, and Equity Multiplier) over time. Generate four figures. Each figure should show the history of one ratio for both CVX and COP. Use average balance sheet items (average the beginning-of-year and end-of-year data)."
   }
 ]

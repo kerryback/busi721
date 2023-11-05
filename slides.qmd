@@ -10,3 +10,5 @@
 [4. Discounted Cash Flow Analysis](04-dcf_analysis.slides.html){target="_blank"} [(pdf)](pdfs/04-dcf_analysis.slides.pdf){target="_blank"}
 
 [7. Financial Accounting II](07-financial_accounting_2.slides.html){target="_blank"} [(pdf)](pdfs/07-financial_accounting_2.slides.pdf){target="_blank"}
+
+[8. Funds and Returns](08-funds_and_returns.slides.html){target="_blank"} [(pdf)](pdfs/08-funds_and_returns.slides.pdf){target="_blank"}
