@@ -12,3 +12,5 @@
 [7. Financial Accounting II](07-financial_accounting_2.slides.html){target="_blank"} [(pdf)](pdfs/07-financial_accounting_2.slides.pdf){target="_blank"}
 
 [8. Funds and Returns](08-funds_and_returns.slides.html){target="_blank"} [(pdf)](pdfs/08-funds_and_returns.slides.pdf){target="_blank"}
+
+[9. Portfolios](09-portfolios.slides.html){target="_blank"} [(pdf)](pdfs/09-portfolios.slides.pdf){target="_blank"}
