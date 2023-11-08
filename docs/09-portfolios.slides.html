@@ -14670,7 +14670,7 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Portfolio-returns">Portfolio returns<a class="anchor-link" href="#Portfolio-returns">&#182;</a></h3><ul>
+<h2 id="Portfolio-returns">Portfolio returns<a class="anchor-link" href="#Portfolio-returns">&#182;</a></h2><ul>
 <li>Two assets, prices $p_1$ and $p_2$</li>
 <li>Own shares $x_1$ and $x_2$</li>
 <li>Portfolio value is $p_1x_1 + p_2x_2$</li>
@@ -14691,7 +14691,7 @@ $$w_i = \frac{p_ix_i}{p_1x_1+p_2x_2}$$<ul>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Example">Example<a class="anchor-link" href="#Example">&#182;</a></h3><ul>
+<h2 id="Example">Example<a class="anchor-link" href="#Example">&#182;</a></h2><ul>
 <li>$\text{\$}200$ in asset 1 and $\text{\$}300$ in asset 2</li>
 <li>asset 1 goes up 10% and asset 2 goes up 5%</li>
 <li>asset 1 $\mapsto \text{\$}220$</li>
@@ -14710,7 +14710,7 @@ $$\frac{2}{5} \times 0.1 + \frac{3}{5} \times 0.05 = 0.07$$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Expected-return">Expected return<a class="anchor-link" href="#Expected-return">&#182;</a></h3><ul>
+<h2 id="Expected-return">Expected return<a class="anchor-link" href="#Expected-return">&#182;</a></h2><ul>
 <li>Returns are random variables</li>
 <li>Expected = mean</li>
 <li>mean portfolio return $w_1r_1 + w_2r_2$ is</li>
@@ -14726,7 +14726,7 @@ $$w_1 \times \text{mean of $r_1$} + w_2 \times \text{mean of $r_2$}$$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Variance">Variance<a class="anchor-link" href="#Variance">&#182;</a></h3><ul>
+<h2 id="Variance">Variance<a class="anchor-link" href="#Variance">&#182;</a></h2><ul>
 <li>The variance of the portfolio return is</li>
 </ul>
 $$w_1^2 \sigma_1^2 + w_2 \sigma_2^2 + 2 w_1w_2\rho\sigma_1\sigma_2$$<ul>
@@ -14788,7 +14788,7 @@ $$w_1^2 \sigma_1^2 + w_2 \sigma_2^2 + 2 w_1w_2\rho\sigma_1\sigma_2$$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Example">Example<a class="anchor-link" href="#Example">&#182;</a></h3>
+<h2 id="Example">Example<a class="anchor-link" href="#Example">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -14797,16 +14797,13 @@ $$w_1^2 \sigma_1^2 + w_2 \sigma_2^2 + 2 w_1w_2\rho\sigma_1\sigma_2$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mu1</span> <span class="o">=</span> <span class="mf">0.06</span>
-<span class="n">mu2</span> <span class="o">=</span> <span class="mf">0.1</span>
-<span class="n">sigma1</span> <span class="o">=</span> <span class="mf">0.2</span>
-<span class="n">sigma2</span> <span class="o">=</span> <span class="mf">0.3</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mu1</span><span class="p">,</span> <span class="n">mu2</span> <span class="o">=</span> <span class="mf">0.06</span><span class="p">,</span> <span class="mf">0.1</span>
+<span class="n">sigma1</span><span class="p">,</span> <span class="n">sigma2</span> <span class="o">=</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span>
 <span class="n">rho</span> <span class="o">=</span> <span class="mf">0.3</span>
-<span class="n">w1</span> <span class="o">=</span> <span class="mf">0.4</span>
-<span class="n">w2</span> <span class="o">=</span> <span class="mf">0.6</span>
+<span class="n">w1</span><span class="p">,</span> <span class="n">w2</span> <span class="o">=</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.6</span>
 </pre></div>
 
      </div>
@@ -14819,13 +14816,14 @@ $$w_1^2 \sigma_1^2 + w_2 \sigma_2^2 + 2 w_1w_2\rho\sigma_1\sigma_2$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
 <span class="n">mn</span> <span class="o">=</span> <span class="n">w1</span><span class="o">*</span><span class="n">mu1</span> <span class="o">+</span> <span class="n">w2</span><span class="o">*</span><span class="n">mu2</span>
 <span class="n">var</span> <span class="o">=</span> <span class="n">w1</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">sigma1</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">w2</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">sigma2</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">w1</span><span class="o">*</span><span class="n">w2</span><span class="o">*</span><span class="n">rho</span><span class="o">*</span><span class="n">sigma1</span><span class="o">*</span><span class="n">sigma2</span>
+
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;mean portfolio return is </span><span class="si">{</span><span class="n">mn</span><span class="si">:</span><span class="s2">.2%</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;std dev of portfolio return is </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">var</span><span class="p">)</span><span class="si">:</span><span class="s2">.2%</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
@@ -14873,7 +14871,7 @@ std dev of portfolio return is 21.78%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cov</span> <span class="o">=</span> <span class="p">[</span>
@@ -14882,8 +14880,13 @@ std dev of portfolio return is 21.78%
 <span class="p">]</span>
 
 <span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">multivariate_normal</span> <span class="k">as</span> <span class="n">multinorm</span>
-<span class="n">rets</span> <span class="o">=</span> <span class="n">multinorm</span><span class="o">.</span><span class="n">rvs</span><span class="p">(</span><span class="n">mean</span><span class="o">=</span><span class="p">[</span><span class="n">mu1</span><span class="p">,</span> <span class="n">mu2</span><span class="p">],</span> <span class="n">cov</span><span class="o">=</span><span class="n">cov</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">1000000</span><span class="p">)</span>
+<span class="n">rets</span> <span class="o">=</span> <span class="n">multinorm</span><span class="o">.</span><span class="n">rvs</span><span class="p">(</span>
+    <span class="n">mean</span><span class="o">=</span><span class="p">[</span><span class="n">mu1</span><span class="p">,</span> <span class="n">mu2</span><span class="p">],</span> 
+    <span class="n">cov</span><span class="o">=</span><span class="n">cov</span><span class="p">,</span> 
+    <span class="n">size</span><span class="o">=</span><span class="mi">1000000</span>
+<span class="p">)</span>
 <span class="n">rp</span> <span class="o">=</span> <span class="n">w1</span><span class="o">*</span><span class="n">rets</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">w2</span><span class="o">*</span><span class="n">rets</span><span class="p">[:,</span><span class="mi">1</span><span class="p">]</span>
+
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;simulated mean is </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">rp</span><span class="p">)</span><span class="si">:</span><span class="s2">.2%</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;simulated std dev is </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">rp</span><span class="p">)</span><span class="si">:</span><span class="s2">.2%</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
@@ -14905,7 +14908,7 @@ std dev of portfolio return is 21.78%
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>simulated mean is 8.41%
+<pre>simulated mean is 8.39%
 simulated std dev is 21.77%
 </pre>
 </div>
@@ -14922,7 +14925,7 @@ simulated std dev is 21.77%
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Cash">Cash<a class="anchor-link" href="#Cash">&#182;</a></h3><ul>
+<h2 id="Cash">Cash<a class="anchor-link" href="#Cash">&#182;</a></h2><ul>
 <li>Adding cash (money market investment) to a portfolio has a simple effect on expected return and risk.</li>
 <li>Let asset 2 be cash.  Its return has negligible risk.  Call its return $r_{mm}$.</li>
 <li>Portfolio mean is $w_1 \mu_1 + w_2 r_{mm}$</li>
@@ -14940,7 +14943,7 @@ simulated std dev is 21.77%
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Margin-loans">Margin loans<a class="anchor-link" href="#Margin-loans">&#182;</a></h3><ul>
+<h2 id="Margin-loans">Margin loans<a class="anchor-link" href="#Margin-loans">&#182;</a></h2><ul>
 <li>You can have negative cash by borrowing from your broker.</li>
 <li>Example: put $\text{\$1,000}$ in an account, borrow $\text{\$200}$ and buy $\text{\$1,200}$ of a stock.</li>
 <li>Continue to call asset 2 cash.</li>
@@ -14948,7 +14951,7 @@ simulated std dev is 21.77%
 </ul>
 <p>$w_1 = 1.2$ and $w_2=-0.2$.</p>
 <ul>
-<li>Your expected return is $1.2\mu_1 - 0.2r_{ml}$ where $r_{ml}$ is the margin loan rate.</li>
+<li>Your expected return is $1.2\times\mu_1 - 0.2\times r_{ml}$ where $r_{ml}$ is the margin loan rate.</li>
 <li>Your std dev is $1.2 \sigma_1$.</li>
 </ul>
 
@@ -14967,9 +14970,9 @@ simulated std dev is 21.77%
 <li>To sell short, your broker borrows shares on your behalf and sells them.</li>
 <li>You eventually have to buy the shares back in the market and return them.</li>
 <li>Profit by selling high and buying low.</li>
-<li>Example: short sell 100 shares $100 stock.<ul>
-<li>Stock falls to $90 and you cover the short (buy and return shares).</li>
-<li>Paid $90 and sold at $100 -&gt; profit $10 per share on 100 shares.</li>
+<li>Example: short sell 100 shares $\text{\$}$100 stock.<ul>
+<li>Stock falls to $\text{\$}$90 and you cover the short (buy and return shares).</li>
+<li>Paid $\text{\$}$90 and sold at $\text{\$}$100 $\Rightarrow$ profit $\text{\$}$10 per share on 100 shares.</li>
 </ul>
 </li>
 </ul>
@@ -14985,11 +14988,12 @@ simulated std dev is 21.77%
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Long-and-short-returns-(simplified-version)">Long and short returns (simplified version)<a class="anchor-link" href="#Long-and-short-returns-(simplified-version)">&#182;</a></h2><ul>
-<li>Assume we invest $1,000, short sell $400 of stock 2 and buy $1,400 of stock 1.</li>
+<li>Assume we invest $\text{\$1,000}$, short sell $\text{\$400}$ of stock 2 and buy $\text{\$1,400}$ of stock 1.</li>
 <li>The weights are 1.4 in stock 1 and -0.4 in stock 2.</li>
 <li>Suppose stock 1 goes up 10% and stock 2 goes up 5%.<ul>
-<li>Stock 1 -&gt; $1,540.  Stock 2 position -&gt; -$420</li>
-<li>Portfolio value -&gt; $1,120 = 12% return</li>
+<li>Stock 1 $\rightarrow$ $\text{\$1,540}$.</li>
+<li>Stock 2 position $\rightarrow$ $-\text{\$420}$.</li>
+<li>Portfolio value $\rightarrow$ $\text{\$1,120} = 12$% return</li>
 <li>$w_1r_1 + w_2r_2 = 1.4 \times 0.10 - 0.4 \times 0.05 = 0.12$</li>
 </ul>
 </li>
@@ -15008,10 +15012,10 @@ simulated std dev is 21.77%
 <h2 id="Long-and-short-returns-(practical-version)">Long and short returns (practical version)<a class="anchor-link" href="#Long-and-short-returns-(practical-version)">&#182;</a></h2><ul>
 <li>Proceeds from short sales are retained as collateral</li>
 <li>Investor may get some interest on the proceeds while they are held (called short interest rebate)</li>
-<li>We can invest $1,000, short sell $400 of stock 2 and buy $1,400 of stock 1 only if we take out a margin loan for $400.</li>
+<li>We can invest $\text{\$1,000}$, short sell $\text{\$400}$ of stock 2 and buy $\text{\$1,400}$ of stock 1 only if we take out a margin loan for $\text{\$400}$.</li>
 <li>Actual return in example is</li>
 </ul>
-$$1.4 \times 0.10 - 0.4 \times 0.05 - 0.4 \times r_{ml} + 0.4 \times r_{sir}- 0.4 \text{$\times$ short borrowing fee}$$<ul>
+$$1.4 \times 0.10 - 0.4 \times 0.05 $$$$- 0.4 \times r_{ml} + 0.4 \times r_{sir}- 0.4 \text{$\times$ short borrowing fee}$$<ul>
 <li>where $r_{sir}$ is the short interest rebate rate.</li>
 </ul>
 
@@ -15025,8 +15029,10 @@ $$1.4 \times 0.10 - 0.4 \times 0.05 - 0.4 \times r_{ml} + 0.4 \times r_{sir}- 0.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Enhanced-index-returns-example">Enhanced index returns example<a class="anchor-link" href="#Enhanced-index-returns-example">&#182;</a></h2><ul>
-<li>Invest $1,000.  Borrow $1,000 on margin loan.  Buy $1,000 of SPY and $1,000 of CVX.  Short sell $1,000 of COP.</li>
+<h2 id="Enhanced-index-return-example">Enhanced index return example<a class="anchor-link" href="#Enhanced-index-return-example">&#182;</a></h2><ul>
+<li>Invest $\text{\$1,000}$.  Borrow $\text{\$1,000}$ on margin loan.</li>
+<li>Buy $\text{\$1,000}$ of SPY and buy $\text{\$1,000}$ of CVX.</li>
+<li>Short sell $\text{\$1,000}$ of COP.</li>
 <li>Return is SPY return + CVX return - COP return minus margin loan/short interest rebate/short borrowing fee drag.</li>
 <li>If CVX beats COP enough, you will beat SPY.</li>
 </ul>
@@ -15075,12 +15081,12 @@ $$1.4 \times 0.10 - 0.4 \times 0.05 - 0.4 \times r_{ml} + 0.4 \times r_{sir}- 0.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># example</span>
 
-<span class="n">w</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">])</span>
+<span class="n">w</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">])</span>
 <span class="n">sigma1</span><span class="p">,</span> <span class="n">sigma2</span><span class="p">,</span> <span class="n">sigma3</span> <span class="o">=</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.1</span>
 <span class="n">rho12</span><span class="p">,</span> <span class="n">rho13</span><span class="p">,</span> <span class="n">rho23</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.4</span>
 
@@ -15089,8 +15095,8 @@ $$1.4 \times 0.10 - 0.4 \times 0.05 - 0.4 \times r_{ml} + 0.4 \times r_{sir}- 0.
     <span class="p">[</span><span class="n">rho12</span><span class="o">*</span><span class="n">sigma1</span><span class="o">*</span><span class="n">sigma2</span><span class="p">,</span> <span class="n">sigma2</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span> <span class="n">rho23</span><span class="o">*</span><span class="n">sigma2</span><span class="o">*</span><span class="n">sigma3</span><span class="p">],</span>
     <span class="p">[</span><span class="n">rho13</span><span class="o">*</span><span class="n">sigma1</span><span class="o">*</span><span class="n">sigma3</span><span class="p">,</span> <span class="n">rho23</span><span class="o">*</span><span class="n">sigma2</span><span class="o">*</span><span class="n">sigma3</span><span class="p">,</span> <span class="n">sigma3</span><span class="o">**</span><span class="mi">2</span><span class="p">]</span>
 <span class="p">])</span>
-
 <span class="n">stdev</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">w</span> <span class="o">@</span> <span class="n">cov</span> <span class="o">@</span> <span class="n">w</span><span class="p">)</span>
+
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;portfolio std dev is </span><span class="si">{</span><span class="n">stdev</span><span class="si">:</span><span class="s2">.2%</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
 
@@ -15111,7 +15117,7 @@ $$1.4 \times 0.10 - 0.4 \times 0.05 - 0.4 \times r_{ml} + 0.4 \times r_{sir}- 0.
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>portfolio std dev is 14.13%
+<pre>portfolio std dev is 10.84%
 </pre>
 </div>
 </div>
@@ -15134,11 +15140,7 @@ $$1.4 \times 0.10 - 0.4 \times 0.05 - 0.4 \times r_{ml} + 0.4 \times r_{sir}- 0.
 $$w'\mu + \left(1-\sum w_i\right)r_{mm}$$<ul>
 <li>If $w_i \ge 0$ and sum to more than 1, then portfolio mean is</li>
 </ul>
-$$w'\mu + \left(1-\sum w_i\right)r_{ml}$$<ul>
-<li>So we can say that if $w_i \ge 0$, then portfolio mean is</li>
-</ul>
-$$w'\mu + \left(1-\sum w_i\right)r_f$$<p>where $r_f = r_{mm}$ if cash &gt; 0 and $r_m = r_{ml}$ if cash &lt; 0.</p>
-
+$$w'\mu + \left(1-\sum w_i\right)r_{ml}$$
 </div>
 </div>
 </div>
@@ -15150,6 +15152,10 @@ $$w'\mu + \left(1-\sum w_i\right)r_f$$<p>where $r_f = r_{mm}$ if cash &gt; 0 and
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
+<li>So we can say that if $w_i \ge 0$, then portfolio mean is</li>
+</ul>
+$$w'\mu + \left(1-\sum w_i\right)r_f$$<ul>
+<li>where $r_f = r_{mm}$ if cash &gt; 0 and $r_m = r_{ml}$ if cash &lt; 0.</li>
 <li>With short sales, portfolio mean is also</li>
 </ul>
 $$w'\mu + \left(1-\sum w_i\right)r_f$$<ul>
@@ -15164,7 +15170,7 @@ $$w'\mu + \left(1-\sum w_i\right)r_f$$<ul>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># continuing prior example</span>
@@ -15194,7 +15200,7 @@ $$w'\mu + \left(1-\sum w_i\right)r_f$$<ul>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>portfolio mean is 9.60%
+<pre>portfolio mean is 8.40%
 </pre>
 </div>
 </div>
@@ -15229,7 +15235,7 @@ $$w'\mu + \left(1-\sum w_i\right)r_f$$<ul>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">yfinance</span> <span class="k">as</span> <span class="nn">yf</span>
@@ -15263,7 +15269,7 @@ $$w'\mu + \left(1-\sum w_i\right)r_f$$<ul>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 
 
 
@@ -15313,7 +15319,7 @@ $$w'\mu + \left(1-\sum w_i\right)r_f$$<ul>
     <tr>
       <th>2004-11-23</th>
       <td>-0.004449</td>
-      <td>-0.000937</td>
+      <td>-0.000938</td>
       <td>0.001526</td>
     </tr>
   </tbody>
@@ -15332,7 +15338,7 @@ $$w'\mu + \left(1-\sum w_i\right)r_f$$<ul>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rets</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
@@ -15351,7 +15357,7 @@ $$w'\mu + \left(1-\sum w_i\right)r_f$$<ul>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
 
 
 
@@ -15383,12 +15389,12 @@ $$w'\mu + \left(1-\sum w_i\right)r_f$$<ul>
     <tr>
       <th>GLD</th>
       <td>1.000000</td>
-      <td>0.208372</td>
+      <td>0.208371</td>
       <td>0.049425</td>
     </tr>
     <tr>
       <th>IEF</th>
-      <td>0.208372</td>
+      <td>0.208371</td>
       <td>1.000000</td>
       <td>-0.320228</td>
     </tr>
@@ -15431,7 +15437,7 @@ $$w'\mu + \left(1-\sum w_i\right)r_f$$<ul>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;annualized means are </span><span class="se">\n</span><span class="si">{</span><span class="mi">252</span><span class="o">*</span><span class="n">rets</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
@@ -15490,7 +15496,7 @@ dtype: float64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">w</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">])</span>
