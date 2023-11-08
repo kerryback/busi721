@@ -18,7 +18,7 @@
     "href": "assignments.html",
     "title": "",
     "section": "",
-    "text": "1. Time Value of Money\n2. Simulation, Moments, and Real Returns\n3. The Sneaker Project\n4. DuPont Analysis"
+    "text": "1. Time Value of Money\n2. Simulation, Moments, and Real Returns\n3. The Sneaker Project\n4. DuPont Analysis\n5. Portfolio Risk"
   },
   {
     "objectID": "index.html",
@@ -82,5 +82,12 @@
     "title": "",
     "section": "",
     "text": "Submit a Jupyter notebook or an Excel workbook that does the following: Using the income statements and balance sheets for CVX and COP for the past five years and the variables Net Income, Total Revenue, Total Assets, and Stockholders Equity, calculate and plot the four financial ratios (ROE, Net Profit Margin, Asset Turnover, and Equity Multiplier) over time. Generate four figures. Each figure should show the history of one ratio for both CVX and COP. Use average balance sheet items (average the beginning-of-year and end-of-year data)."
+  },
+  {
+    "objectID": "assignment5.html",
+    "href": "assignment5.html",
+    "title": "",
+    "section": "",
+    "text": "Using adjusted closing prices from Yahoo, calculate daily returns for CVX, COP, WMT, and TGT. Drop NaNs so that the returns of all stocks span the same time periods. Compute the correlation matrix. Of the six possible pairs of stocks, which two have the highest correlations?\nCompute the annualized standard deviations of all four stocks.\nCompute the standard deviation of a portfolio that is 50% in CVX and 50% in COP. Compute the standard deviation of a portfolio that is 50% in WMT and 50% in COP. Explain why the WMT/COP portfolio has a lower risk than the CVX/COP portfolio. Is it because WMT has less risk than CVX?"
   }
 ]

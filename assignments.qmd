@@ -8,3 +8,5 @@
 
 [4. DuPont Analysis](assignment4.html){target="_blank"}
 
+[5. Portfolio Risk](assignment5.html){target="_blank"}
+

@@ -1,0 +1,5 @@
+## Assignment 5<br>BUSI 721: Data-Driven Finance I<br>Rice University
+
+1. Using adjusted closing prices from Yahoo, calculate daily returns for CVX, COP, WMT, and TGT.  Drop NaNs so that the returns of all stocks span the same time periods.  Compute the correlation matrix.  Of the six possible pairs of stocks, which two have the highest correlations?
+2.  Compute the annualized standard deviations of all four stocks.
+3.  Compute the standard deviation of a portfolio that is 50% in CVX and 50% in COP.  Compute the standard deviation of a portfolio that is 50% in WMT and 50% in COP.  Explain why the WMT/COP portfolio has a lower risk than the CVX/COP portfolio.  Is it because WMT has less risk than CVX?
