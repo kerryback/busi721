@@ -14,3 +14,5 @@
 [8. Funds and Returns](08-funds_and_returns.slides.html){target="_blank"} [(pdf)](pdfs/08-funds_and_returns.slides.pdf){target="_blank"}
 
 [9. Portfolios](09-portfolios.slides.html){target="_blank"} [(pdf)](pdfs/09-portfolios.slides.pdf){target="_blank"}
+
+[10. Portfolio Optimization](10-portfolio_optimization.slides.html){target="_blank"} [(pdf)](pdfs/10-portfolio_optimization.slides.pdf){target="_blank"}
