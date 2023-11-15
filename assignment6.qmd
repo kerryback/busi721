@@ -1,6 +1,12 @@
 ## Assignment 6<br>BUSI 721: Data-Driven Finance I<br>Rice University
 
-1. Compute the historical means, standard deviations, and covariance matrix of the S&P 500, Treasuries, and Corporates using Damodoran's data (see 11-markets_portfolios.ipynb for a url to download the data).
+::: {.callout-note appearance="minimal"}
+## Instructions 
+
+This assignment is due Monday, Nov. 20  Submit a Jupyter notebook to Canvas. Copy each question into a Markdown cell and perform the analysis in the following cell(s). 
+:::
+
+1. Compute the historical means and covariance matrix of the S&P 500, Treasuries, and Corporates using Damodoran's data (see 11-markets_portfolios.ipynb for a url to download the data).  Print them and then convert them to numpy arrays before doing the following parts.
 2. Compute the global minimum variance portfolio.
 3. Vary the target expected return on a grid from 4% to 12% and compute the minimum risk portfolio, allowing short sales but not using cash.  Calculate the mean and standard deviation of each portfolio and plot them.
 4.  Assume the risk-free rate is 3%.  What is the tangency portfolio, allowing short sales?

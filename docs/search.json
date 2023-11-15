@@ -95,6 +95,6 @@
     "href": "assignment6.html",
     "title": "",
     "section": "",
-    "text": "Compute the historical means, standard deviations, and covariance matrix of the S&P 500, Treasuries, and Corporates using Damodoran’s data (see 11-markets_portfolios.ipynb for a url to download the data).\nCompute the global minimum variance portfolio.\nVary the target expected return on a grid from 4% to 12% and compute the minimum risk portfolio, allowing short sales but not using cash. Calculate the mean and standard deviation of each portfolio and plot them.\nAssume the risk-free rate is 3%. What is the tangency portfolio, allowing short sales?"
+    "text": "Instructions\n\n\n\nThis assignment is due Monday, Nov. 20 Submit a Jupyter notebook to Canvas. Copy each question into a Markdown cell and perform the analysis in the following cell(s).\n\n\n\nCompute the historical means and covariance matrix of the S&P 500, Treasuries, and Corporates using Damodoran’s data (see 11-markets_portfolios.ipynb for a url to download the data). Print them and then convert them to numpy arrays before doing the following parts.\nCompute the global minimum variance portfolio.\nVary the target expected return on a grid from 4% to 12% and compute the minimum risk portfolio, allowing short sales but not using cash. Calculate the mean and standard deviation of each portfolio and plot them.\nAssume the risk-free rate is 3%. What is the tangency portfolio, allowing short sales?"
   }
 ]
