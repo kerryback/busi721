@@ -11,14 +11,14 @@
     "href": "slides.html",
     "title": "",
     "section": "",
-    "text": "1. Time Value of Money (pdf)\n2. Simulation, Moments, and Real Returns (pdf)\n3. Financial Accounting I (pdf)\n4. Discounted Cash Flow Analysis (pdf)\n7. Financial Accounting II (pdf)\n8. Funds and Returns (pdf)\n9. Portfolios (pdf)\n10. Portfolio Optimization (pdf)"
+    "text": "1. Time Value of Money (pdf)\n2. Simulation, Moments, and Real Returns (pdf)\n3. Financial Accounting I (pdf)\n4. Discounted Cash Flow Analysis (pdf)\n7. Financial Accounting II (pdf)\n8. Funds and Returns (pdf)\n9. Portfolios (pdf)\n10. Portfolio Optimization (pdf)\n11. Markets and More on Portfolios (pdf)"
   },
   {
     "objectID": "assignments.html",
     "href": "assignments.html",
     "title": "",
     "section": "",
-    "text": "1. Time Value of Money\n2. Simulation, Moments, and Real Returns\n3. The Sneaker Project\n4. DuPont Analysis\n5. Portfolio Risk"
+    "text": "1. Time Value of Money\n2. Simulation, Moments, and Real Returns\n3. The Sneaker Project\n4. DuPont Analysis\n5. Portfolio Risk\n6. Portfolio Optimization"
   },
   {
     "objectID": "index.html",
@@ -89,5 +89,12 @@
     "title": "",
     "section": "",
     "text": "Using adjusted closing prices from Yahoo, calculate daily returns for CVX, COP, WMT, and TGT. Drop NaNs so that the returns of all stocks span the same time periods. Compute the correlation matrix. Of the six possible pairs of stocks, which two have the highest correlations?\nCompute the annualized standard deviations of all four stocks.\nCompute the standard deviation of a portfolio that is 50% in CVX and 50% in COP. Compute the standard deviation of a portfolio that is 50% in WMT and 50% in COP. Explain why the WMT/COP portfolio has a lower risk than the CVX/COP portfolio. Is it because WMT has less risk than CVX?"
+  },
+  {
+    "objectID": "assignment6.html",
+    "href": "assignment6.html",
+    "title": "",
+    "section": "",
+    "text": "Compute the historical means, standard deviations, and covariance matrix of the S&P 500, Treasuries, and Corporates using Damodoran’s data (see 11-markets_portfolios.ipynb for a url to download the data).\nCompute the global minimum variance portfolio.\nVary the target expected return on a grid from 4% to 12% and compute the minimum risk portfolio, allowing short sales but not using cash. Calculate the mean and standard deviation of each portfolio and plot them.\nAssume the risk-free rate is 3%. What is the tangency portfolio, allowing short sales?"
   }
 ]
