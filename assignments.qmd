@@ -12,3 +12,5 @@
 
 [6. Portfolio Optimization](assignment6.html){target="_blank"}
 
+[7. Bonds](assignment7.html){target="_blank"}
+

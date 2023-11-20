@@ -11,14 +11,14 @@
     "href": "slides.html",
     "title": "",
     "section": "",
-    "text": "1. Time Value of Money (pdf)\n2. Simulation, Moments, and Real Returns (pdf)\n3. Financial Accounting I (pdf)\n4. Discounted Cash Flow Analysis (pdf)\n7. Financial Accounting II (pdf)\n8. Funds and Returns (pdf)\n9. Portfolios (pdf)\n10. Portfolio Optimization (pdf)\n11. Markets and More on Portfolios (pdf)"
+    "text": "1. Time Value of Money (pdf)\n2. Simulation, Moments, and Real Returns (pdf)\n3. Financial Accounting I (pdf)\n4. Discounted Cash Flow Analysis (pdf)\n7. Financial Accounting II (pdf)\n8. Funds and Returns (pdf)\n9. Portfolios (pdf)\n10. Portfolio Optimization (pdf)\n11. Markets and More on Portfolios (pdf)\n12. Bonds (pdf)"
   },
   {
     "objectID": "assignments.html",
     "href": "assignments.html",
     "title": "",
     "section": "",
-    "text": "1. Time Value of Money\n2. Simulation, Moments, and Real Returns\n3. The Sneaker Project\n4. DuPont Analysis\n5. Portfolio Risk\n6. Portfolio Optimization"
+    "text": "1. Time Value of Money\n2. Simulation, Moments, and Real Returns\n3. The Sneaker Project\n4. DuPont Analysis\n5. Portfolio Risk\n6. Portfolio Optimization\n7. Bonds"
   },
   {
     "objectID": "index.html",
@@ -39,14 +39,14 @@
     "href": "slides.html#slide-decks-busi-721-data-driven-finance-i-rice-university",
     "title": "",
     "section": "",
-    "text": "1. Time Value of Money (pdf)\n2. Simulation, Moments, and Real Returns (pdf)\n3. Financial Accounting I (pdf)\n4. Discounted Cash Flow Analysis (pdf)\n7. Financial Accounting II (pdf)\n8. Funds and Returns (pdf)"
+    "text": "1. Time Value of Money (pdf)\n2. Simulation, Moments, and Real Returns (pdf)\n3. Financial Accounting I (pdf)\n4. Discounted Cash Flow Analysis (pdf)\n7. Financial Accounting II (pdf)\n8. Funds and Returns (pdf)\n9. Portfolios (pdf)\n10. Portfolio Optimization (pdf)\n11. Markets and More on Portfolios (pdf)\n12. Bonds (pdf)"
   },
   {
     "objectID": "assignments.html#assignments-data-driven-finance-i-rice-university",
     "href": "assignments.html#assignments-data-driven-finance-i-rice-university",
     "title": "",
     "section": "",
-    "text": "1. Time Value of Money"
+    "text": "1. Time Value of Money\n2. Simulation, Moments, and Real Returns\n3. The Sneaker Project\n4. DuPont Analysis\n5. Portfolio Risk\n6. Portfolio Optimization\n7. Bonds"
   },
   {
     "objectID": "assignment1.html#assignment-1-busi-721-data-driven-finance-i-rice-university",
@@ -96,5 +96,19 @@
     "title": "",
     "section": "",
     "text": "Instructions\n\n\n\nThis assignment is due Monday, Nov. 20 Submit a Jupyter notebook to Canvas. Copy each question into a Markdown cell and perform the analysis in the following cell(s).\n\n\n\nCompute the historical means and covariance matrix of the S&P 500, Treasuries, and Corporates using Damodoran’s data (see 11-markets_portfolios.ipynb for a url to download the data). Print them and then convert them to numpy arrays before doing the following parts.\nCompute the global minimum variance portfolio.\nVary the target expected return on a grid from 4% to 12% and compute the minimum risk portfolio, allowing short sales but not using cash. Calculate the mean and standard deviation of each portfolio and plot them.\nAssume the risk-free rate is 3%. What is the tangency portfolio, allowing short sales?"
+  },
+  {
+    "objectID": "assignment7.html",
+    "href": "assignment7.html",
+    "title": "",
+    "section": "",
+    "text": "Instructions\n\n\n\nThis assignment is due by midnight, Tuesday, Nov. 28. Submit a Jupyter notebook to Canvas. Copy each question into a Markdown cell and perform the analysis in the following cell(s).\n\n\n\nConsider a 5-year bond and a 30-year bond. Suppose each has $1,000 face value and pays semi-annual coupons totaling 6% of face value per year. Suppose the next coupon for each bond is six months away. Compute and plot the prices of the bonds for yields in a grid of 0 to 12%. Which price is most sensitive to the yield?\nCompute daily IEF returns using adjusted closing prices from Yahoo Finance. Get the Fed funds rate from FRED (the name of the data is “FEDFUNDS”). Compute the daily change in the Fed funds rate, and compute the correlation between the daily change in the rate and the daily (same day) IEF return.\nSuppose you invest $1 at the Fed funds rate and roll it over at the Fed funds rate each day, beginning when IEF first started trading. Plot the value of the account, and plot the value of an account that starts wtih $1 in IEF and reinvests dividends in IEF."
+  },
+  {
+    "objectID": "assignment7.html#assignment-7-busi-721-data-driven-finance-i-rice-university",
+    "href": "assignment7.html#assignment-7-busi-721-data-driven-finance-i-rice-university",
+    "title": "",
+    "section": "",
+    "text": "Instructions\n\n\n\nThis assignment is due by midnight, Tuesday, Nov. 28. Submit a Jupyter notebook to Canvas. Copy each question into a Markdown cell and perform the analysis in the following cell(s).\n\n\n\nConsider a 5-year bond and a 30-year bond. Suppose each has $1,000 face value and pays semi-annual coupons totaling 6% of face value per year. Suppose the next coupon for each bond is six months away. Compute and plot the prices of the bonds for yields in a grid of 0 to 12%. Which price is most sensitive to the yield?\nCompute daily IEF returns using adjusted closing prices from Yahoo Finance. Get the Fed funds rate from FRED (the name of the data is “FEDFUNDS”). Compute the daily change in the Fed funds rate, and compute the correlation between the daily change in the rate and the daily (same day) IEF return.\nSuppose you invest $1 at the Fed funds rate and roll it over at the Fed funds rate each day, beginning when IEF first started trading. Plot the value of the account, and plot the value of an account that starts wtih $1 in IEF and reinvests dividends in IEF."
   }
 ]
