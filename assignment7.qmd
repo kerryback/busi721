@@ -9,6 +9,4 @@ This assignment is due by midnight, Tuesday, Nov. 28.  Submit a Jupyter notebook
 
 1.  Consider a 5-year bond and a 30-year bond.  Suppose each has $1,000 face value and pays semi-annual coupons totaling 6% of face value per year.  Suppose the next coupon for each bond is six months away.  Compute and plot the prices of the bonds for yields in a grid of 0 to 12%.  Which price is most sensitive to the yield?
 
-2.  Compute daily IEF returns using adjusted closing prices from Yahoo Finance.  Get the Fed funds rate from FRED (the name of the data is "FEDFUNDS").  Compute the daily change in the Fed funds rate, and compute the correlation between the daily change in the rate and the daily (same day) IEF return.  
-
-3.  Suppose you invest $1 at the Fed funds rate and roll it over at the Fed funds rate each day, beginning when IEF first started trading.  Plot the value of the account, and plot the value of an account that starts wtih $1 in IEF and reinvests dividends in IEF.  
+2.  Compute the longest available history of daily IEF returns using adjusted closing prices from Yahoo Finance.  Get the Fed funds rate from FRED (the name of the data is "FEDFUNDS").  Compute the daily change in the Fed funds rate, and compute the correlation between the daily change in the rate and the daily (same day) IEF return.   
