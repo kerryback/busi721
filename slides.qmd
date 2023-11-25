@@ -20,3 +20,5 @@
 [11. Markets and More on Portfolios](11-markets_portfolios.slides.html){target="_blank"} [(pdf)](pdfs/11-markets_portfolios.slides.pdf){target="_blank"}
 
 [12. Bonds](12-bonds.slides.html){target="_blank"} [(pdf)](pdfs/12-bonds.slides.pdf){target="_blank"}
+
+[13. Cost of Capital](13-cost_of_capital.slides.html){target="_blank"} [(pdf)](pdfs/13-cost_of_capital.slides.pdf){target="_blank"}
