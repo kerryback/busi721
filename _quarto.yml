@@ -21,7 +21,8 @@ website:
     title: BUSI 721
     file: index.qmd
     right:
-      
+      - text: Practice Exam
+        href: PracticeExam.pdf
       - text: Slides
         file: slides.qmd
       - text: Assignments
