@@ -14652,21 +14652,18 @@ div.jp-OutputPrompt {
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 
 <div class="reveal">
-<div class="slides"><section ><section >
+<div class="slides"><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Cost-of-Capital">Cost of Capital<a class="anchor-link" href="#Cost-of-Capital">&#182;</a></h1><h3 id="BUSI-721:-Data-Driven-Finance-I">BUSI 721: Data-Driven Finance I<a class="anchor-link" href="#BUSI-721:-Data-Driven-Finance-I">&#182;</a></h3><h3 id="Kerry-Back,-Rice-University">Kerry Back, Rice University<a class="anchor-link" href="#Kerry-Back,-Rice-University">&#182;</a></h3><a target="_blank" href="https://colab.research.google.com/github/kerryback/busi721/blob/main/notebooks/13-cost_of_capital.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
+<h1 id="Cost-of-Capital">Cost of Capital<a class="anchor-link" href="#Cost-of-Capital">&#182;</a></h1><h3 id="BUSI-721:-Data-Driven-Finance-I">BUSI 721: Data-Driven Finance I<a class="anchor-link" href="#BUSI-721:-Data-Driven-Finance-I">&#182;</a></h3><h3 id="Kerry-Back,-Rice-University">Kerry Back, Rice University<a class="anchor-link" href="#Kerry-Back,-Rice-University">&#182;</a></h3>
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14683,7 +14680,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14697,7 +14694,7 @@ $$\mu'w + \left(1-\sum_{i=1}^n w_i\right)r_f= r$$<p>where $r=$ target expected r
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14705,20 +14702,19 @@ $$\mu'w + \left(1-\sum_{i=1}^n w_i\right)r_f= r$$<p>where $r=$ target expected r
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Target-expected-return-constraint">Target expected return constraint<a class="anchor-link" href="#Target-expected-return-constraint">&#182;</a></h3><ul>
-<li>Expected return is</li>
+<li>Expected return is 
+$$\mu'w + (1-\iota'w)r_f = r_f + (\mu-r_f\iota')w$$</li>
+<li>Equals target expected return $r$ if and only if
+$$(\mu-r_f\iota)'w = r-r_f$$</li>
+<li>So, minimize 
+$$\frac{1}{2} w'\Sigma w$$</li>
 </ul>
-$$\mu'w + (1-\iota'w)r_f = r_f + (\mu-r_f\iota')w$$<ul>
-<li>Equals target expected return $r$ if and only if</li>
-</ul>
-$$(\mu-r_f\iota)'w = r-r_f$$<ul>
-<li>So, minimize</li>
-</ul>
-$$\frac{1}{2} w'\Sigma w$$<p>subject to</p>
+<p>subject to</p>
 $$(\mu-r_f\iota)'w= r = r_f$$
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14727,15 +14723,17 @@ $$(\mu-r_f\iota)'w= r = r_f$$
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Marginal-benefit-cost-ratios">Marginal benefit-cost ratios<a class="anchor-link" href="#Marginal-benefit-cost-ratios">&#182;</a></h3><ul>
 <li>Benefit = risk premium = $(\mu-r_f\iota)'w$</li>
-<li>Cost = half of variance = $(1/2)w'\Sigma w$</li>
+<li>Cost = half of variance = $(1/2)w'\Sigma w$<ul>
 <li>Minimize cost subject to benefit $=r-r_f$</li>
 <li>The optimum is such that the ratio of marginal benefit to marginal cost is the same for all assets.</li>
+</ul>
+</li>
 </ul>
 $$ \frac{\partial \text{Benefit}/\partial w_i}{ \partial \text{Cost}/\partial w_i} = \text{constant depending on $r-r_f$}$$
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14745,19 +14743,17 @@ $$ \frac{\partial \text{Benefit}/\partial w_i}{ \partial \text{Cost}/\partial w_
 <h3 id="Related-problem">Related problem<a class="anchor-link" href="#Related-problem">&#182;</a></h3><ul>
 <li>Outputs 1, ..., n.  Quantities = $x_i$</li>
 <li>Output prices $p_i$</li>
-<li>Efficient production plan miminizes cost given the revenue it produces:</li>
-</ul>
-$$ \text{minimize} \quad \frac{1}{2}C(x_1, \ldots, x_n) \quad \text{subject to} \sum_{i=1}^n p_ix_i = \text{revenue target}$$<ul>
-<li>Optimum is such that</li>
-</ul>
-$$ \frac{p_i}{\partial C/\partial x_i} = \text{constant depending on revenue target}$$<ul>
+<li>Efficient production plan miminizes cost given the revenue it produces:
+$$ \text{minimize} \quad \frac{1}{2}C(x_1, \ldots, x_n) \quad \text{subject to} \sum_{i=1}^n p_ix_i = \text{revenue target}$$</li>
+<li>Optimum is such that
+$$ \frac{p_i}{\partial C/\partial x_i} = \text{constant depending on revenue target}$$</li>
 <li>as long as the $x_i$ are $\ge 0$ at the solution of these equations.</li>
 </ul>
 
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14766,7 +14762,7 @@ $$ \frac{p_i}{\partial C/\partial x_i} = \text{constant depending on revenue tar
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Why-marginal-benefit-cost-ratios-the-same?">Why marginal benefit-cost ratios the same?<a class="anchor-link" href="#Why-marginal-benefit-cost-ratios-the-same?">&#182;</a></h3><ul>
 <li>Suppose two outputs both have marginal cost = 1.  One has price = 1  The other has price = 2.</li>
-<li>Reduce production of the low-price output by $\Delta$.</li>
+<li>Reduce production of the low-price output by $\Delta$.  </li>
 <li>Increase production of the high-price output by $\Delta$.</li>
 <li>Cost goes down from reducing production of one and up from increasing producing of other, and these offset due to equal marginal costs.</li>
 <li>Make more revenue.</li>
@@ -14775,7 +14771,7 @@ $$ \frac{p_i}{\partial C/\partial x_i} = \text{constant depending on revenue tar
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14793,7 +14789,7 @@ $$\frac{\partial \text{Variance}}{\partial w_1} = 2w_1\sigma_1^2 + 2\rho\sigma_1
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14801,14 +14797,15 @@ $$\frac{\partial \text{Variance}}{\partial w_1} = 2w_1\sigma_1^2 + 2\rho\sigma_1
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 $$\frac{\partial \text{Cost}}{\partial w_1} = w_1\sigma_1^2 + \rho\sigma_1\sigma_2 w_2$$$$ = w_1\text{cov}(r_1, r_1) + w_2 \text{cov}(r_1, r_2)$$$$ = \text{cov}(r_1, w_1r_1) + \text{cov}(r_1, w_2r_2)$$$$ = \text{cov}(r_1, w_1r_1 + w_2r_2)$$<ul>
-<li>With $n$ assets, the marginal cost of asset $i$ is</li>
+<li>With $n$ assets, the marginal cost of asset $i$ is
+$$\text{cov}\left(r_i, \sum_{i=1}^n w_ir_i\right)$$
+where $(w_1, \ldots, w_n)$ is the efficient portfolio.</li>
 </ul>
-$$\text{cov}\left(r_i, \sum_{i=1}^n w_ir_i\right)$$<p>where $(w_1, \ldots, w_n)$ is the efficient portfolio.</p>
 
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14819,16 +14816,15 @@ $$\text{cov}\left(r_i, \sum_{i=1}^n w_ir_i\right)$$<p>where $(w_1, \ldots, w_n)$
 <li>Call the constant $k$</li>
 <li>So, marginal benefit / marginal cost $=k$</li>
 <li>So, marginal benefit $=k \times \text{marginal cost}$</li>
-<li>So, for each asset,</li>
-</ul>
-$$ \text{risk premium} = k \times \text{cov}(\text{asset return}, \text{efficient portfolio return})$$<ul>
+<li>So, for each asset,
+$$ \text{risk premium} = k \times \text{cov}(\text{asset return}, \text{efficient portfolio return})$$</li>
 <li>This provides some hope for estimating the return investors expect from a stock (expected return = risk premium $\;+\;r_f$)</li>
 </ul>
 
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14836,19 +14832,19 @@ $$ \text{risk premium} = k \times \text{cov}(\text{asset return}, \text{efficien
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="A-few-more-steps">A few more steps<a class="anchor-link" href="#A-few-more-steps">&#182;</a></h3><ul>
-<li>The risk premium formula also holds for portfolios of assets, so use it for the efficient portfolio return:</li>
+<li>The risk premium formula also holds for portfolios of assets, so use it for the efficient portfolio return:
+$$\text{efficient portfolio risk premium} = k \times \text{var}(\text{efficient portfolio return})$$</li>
+<li>This is a formula for $k$:
+$$k = \frac{\text{efficient portfolio risk premium}}{\text{var}(\text{efficient portfolio return})}$$</li>
+<li>Substituting this, we get, for each asset,
+$$ \text{risk premium} = \frac{\text{cov}(\text{asset return}, \text{efficient portfolio return})}{\text{var}(\text{efficient portfolio return})}$$
+$$\qquad \qquad \times \; \text{efficient portfolio risk premium}$$</li>
 </ul>
-$$\text{efficient portfolio risk premium} = k \times \text{var}(\text{efficient portfolio return})$$<ul>
-<li>This is a formula for $k$:</li>
-</ul>
-$$k = \frac{\text{efficient portfolio risk premium}}{\text{var}(\text{efficient portfolio return})}$$<ul>
-<li>Substituting this, we get, for each asset,</li>
-</ul>
-$$ \text{risk premium} = \frac{\text{cov}(\text{asset return}, \text{efficient portfolio return})}{\text{var}(\text{efficient portfolio return})}$$$$\qquad \qquad \times \; \text{efficient portfolio risk premium}$$
+
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14857,18 +14853,18 @@ $$ \text{risk premium} = \frac{\text{cov}(\text{asset return}, \text{efficient p
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
 <li>A covariance to variance ratio like this is the slope in a regression.</li>
-<li>Let $r_p$ denote the efficient portfolio return.</li>
-<li>We are dealing with risk premia, so compute excess returns $r_i-r_f$ and $r_p-r_f$.</li>
-<li>Run the regression:</li>
+<li>Let $r_p$ denote the efficient portfolio return.  </li>
+<li>We are dealing with risk premia, so compute excess returns $r_i-r_f$ and $r_p-r_f$.  </li>
+<li>Run the regression:
+$$r_i - r_f = \alpha_i + \beta_i (r_p-r_f) + \varepsilon_i$$</li>
+<li>Covariance to variance ratio is $\beta_i$.  So, for each asset,
+$$\text{risk premium} = \beta \; \times \text{efficient portfolio risk premium}.$$</li>
 </ul>
-$$r_i - r_f = \alpha_i + \beta_i (r_p-r_f) + \varepsilon_i$$<ul>
-<li>Covariance to variance ratio is $\beta_i$.  So, for each asset,</li>
-</ul>
-$$\text{risk premium} = \beta \; \times \text{efficient portfolio risk premium}.$$
+
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14876,23 +14872,22 @@ $$\text{risk premium} = \beta \; \times \text{efficient portfolio risk premium}.
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li><p>All of this is tautological and so far doesn't help us.</p>
-</li>
-<li><p>To find the efficient portfolio by calculation, we already need to know all of the risk premia.</p>
-</li>
+<li>All of this is tautological and so far doesn't help us.</li>
+<li>To find the efficient portfolio by calculation, we already need to know all of the risk premia.</li>
 <li><p>But suppose we could guess a efficient portfolio.  Then,</p>
 <ul>
 <li>We can run regressions to estimate betas.</li>
 <li>We can estimate the efficient portfolio risk premium using hopefully a very long data series of returns.</li>
 <li>We get a formula for the return investors expect from a stock.</li>
 </ul>
-$$\text{expected return} = r_f + \beta \times \text{efficient portfolio risk premium}$$</li>
+<p>$$\text{expected return} = r_f + \beta \times \text{efficient portfolio risk premium}$$</p>
+</li>
 </ul>
 
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14910,7 +14905,24 @@ $$\text{expected return} = r_f + \beta \times \text{market risk premium}$$
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Intuition-for-the-CAPM">Intuition for the CAPM<a class="anchor-link" href="#Intuition-for-the-CAPM">&#182;</a></h3><ul>
+<li>Market risk is the biggest risk diversified investors hold</li>
+<li>Therefore, the relevant risk of an asset is how much it contributes to market risk</li>
+<li>This depends on its covariance with market risk, captured by beta</li>
+<li>So, the risk premium of an asset should depend on its beta</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14923,7 +14935,7 @@ $$\text{expected return} = r_f + \beta \times \text{market risk premium}$$
 <li>Determine the coupon at which you could issue debt at face value (market rate for your debt) = cost of debt.</li>
 <li>Determine the marginal tax rate.  It matters because interest is tax deductible but dividends are not.</li>
 </ul>
-$$\text{WACC} = \text{\% equity} \times \text{cost of equity}$$$$\qquad \qquad + \text{\% debt} \times (1-\text{tax rate}) \times \text{cost of debt}$$
+$$\text{WACC} = \text{pct equity} \times \text{cost of equity}$$$$\qquad \qquad\text{$+$ pct debt} \times (1-\text{tax rate}) \times \text{cost of debt}$$
 </div>
 </div>
 </div>
